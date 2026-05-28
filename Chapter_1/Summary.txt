@@ -1,0 +1,17 @@
+C is a byproduct of UNIX OS
+
+
+Originally, UNIX engineers developed B, to run from ASM. Based on BCPL, who is based on Algol 60.
+
+Later, as B was not that good, C came up.
+
+C only began to be standarized in 83!
+and the first standard version of C is C89/C90
+
+C++, Java, C#, Perl... are all C based in some level.
+
+C is low-level, small and permissive.
+
+C is efficient, portable, powerfull, flexible, has its stdlib as support, and is well suited to integrate with UNIX-like systems.
+
+But, is error-prone, harder to understand and modify.
