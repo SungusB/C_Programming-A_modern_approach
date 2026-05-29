@@ -1,0 +1,76 @@
+Basic explanations of libc (stdio.h) and functionality of I/O stuff.
+
+
+
+explanations of compiling and linking.
+Create .c file -> preprocessing -> compilation -> linking (.o)
+
+this all can be done with cc archive.c
+
+to rename the linker can be done so with cc -o archive archive.c
+
+This all can be done with gcc compiler too
+
+
+C is writen usually as:
+
+___________________
+DIRECTIVES
+
+int main (int argc, char *argv)
+{
+    statements
+}
+
+___________________
+
+
+Before compilation, C programs are edited by the preoprocessor, making stuff like #include <stdio.h> into actual code, from source headers. they are .h standing for headers.
+
+functions are subroutines in the program basically. BUidling blocks that construct programs. May or may not return values.
+
+main is th ONLY mandatory function. -> this is supposed to always return an int.
+
+statements are generically actions the program does.
+
+printf is a way to print stuff. Can also be done otherwise, such as with puts for example, fprintf...
+
+
+comments are done with /* aaaaaaa  */
+
+in C99 onwards, // can also be used for inline commenting
+
+
+Variables are storage locations with some rational behind them.
+
+Every variable has a type. Variables also have to be declare explicitly.
+___________________
+DIRECTIVES
+
+int main (int argc, char *argv)
+{
+    declarations
+    statements
+}
+
+___________________
+
+
+assignments define values to variables, according to their type. Cant be done before variables are assigned.
+
+Printing the values of variables via printf is done so by:
+
+printf("...%d/%f...", var);
+
+in %f, you can manipulate decimal precision by %.Nf
+
+scanf can be used for reading functions...
+
+MACROS can be done like:
+
+#define FREEZING_PT 32.0f
+#define SCALE_FACTOR (5.0f / 9.0f)
+
+idk, i will not continue summarizing this chapter, ts too simple and trivial c knowledge
+
+
